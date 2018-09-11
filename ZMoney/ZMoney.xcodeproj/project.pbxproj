@@ -13,6 +13,7 @@
 		18403EA12147B5FA0028104E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18403EA02147B5FA0028104E /* Assets.xcassets */; };
 		18403EA42147B5FA0028104E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18403EA22147B5FA0028104E /* LaunchScreen.storyboard */; };
 		18403EB42147B8B90028104E /* ZMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18403EB32147B8B90028104E /* ZMLoginViewController.swift */; };
+		18403EB92147C1100028104E /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18403EB82147C1100028104E /* UIViewHelper.swift */; };
 		88912ECFA593C54BAD2E7295 /* Pods_ZMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25476AF49B4432B72DCAC3F7 /* Pods_ZMoney.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		18403EA32147B5FA0028104E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18403EA52147B5FA0028104E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18403EB32147B8B90028104E /* ZMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMLoginViewController.swift; sourceTree = "<group>"; };
+		18403EB82147C1100028104E /* UIViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
 		25476AF49B4432B72DCAC3F7 /* Pods_ZMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADCBFA064F378D3EFC12B71 /* Pods-ZMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMoney.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMoney/Pods-ZMoney.debug.xcconfig"; sourceTree = "<group>"; };
 		B51E59DF69D8EB4CAB1E4E76 /* Pods-ZMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMoney/Pods-ZMoney.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				18403EB02147B7D90028104E /* 资产 */,
 				18403EB12147B7E30028104E /* Apollo */,
 				18403EB22147B7F30028104E /* 我的 */,
+				18403EB72147C1100028104E /* 工具类 */,
 				18403E992147B5F80028104E /* AppDelegate.swift */,
 				18403E9B2147B5F80028104E /* ViewController.swift */,
 				18403E9D2147B5F80028104E /* Main.storyboard */,
@@ -121,6 +124,14 @@
 			children = (
 			);
 			path = "我的";
+			sourceTree = "<group>";
+		};
+		18403EB72147C1100028104E /* 工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				18403EB82147C1100028104E /* UIViewHelper.swift */,
+			);
+			path = "工具类";
 			sourceTree = "<group>";
 		};
 		1E6C312A2A2BA75B4E799EA9 /* Frameworks */ = {
@@ -227,6 +238,7 @@
 			files = (
 				18403EB42147B8B90028104E /* ZMLoginViewController.swift in Sources */,
 				18403E9C2147B5F80028104E /* ViewController.swift in Sources */,
+				18403EB92147C1100028104E /* UIViewHelper.swift in Sources */,
 				18403E9A2147B5F80028104E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
