@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import CountryCodeSelect
 
 class ZMLoginViewController: UIViewController {
 
     
     @IBOutlet weak var languageBtn: UIButton!
+    @IBOutlet weak var AreaCodeTextField: UITextField!
     @IBOutlet weak var phoneTextField: UITextField!
     @IBOutlet weak var verificationCode: UITextField!
     
@@ -27,6 +29,20 @@ class ZMLoginViewController: UIViewController {
     
     @IBOutlet weak var emailLoginBtn: UIButton!
     
+    lazy var countryCodePickerView: CountryCodePicker! = {
+        let pickerView = CountryCodePicker()
+        return pickerView
+    }()
+    
+    lazy var countryCodePickerViewToolbar: UIToolbar! = {
+        let toolbar = UIToolbar()
+        toolbar.barStyle = .default
+        toolbar.sizeToFit()
+        toolbar.items = [UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil),
+                         UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(doneButtonPressed(_:)))]
+        return toolbar
+    }()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +50,15 @@ class ZMLoginViewController: UIViewController {
         //设置占位文字颜色
         phoneTextField.attributedPlaceholder = NSAttributedString.init(string: "请输入手机号码", attributes: [NSAttributedStringKey.foregroundColor : UIColor.darkGray])
         verificationCode.attributedPlaceholder = NSAttributedString.init(string: "请输入手机验证码", attributes: [NSAttributedStringKey.foregroundColor : UIColor.darkGray])
-
+        AreaCodeTextField.inputView = countryCodePickerView
+        AreaCodeTextField.inputAccessoryView = countryCodePickerViewToolbar
+        
+    }
+    
+    /// 选择区号
+    @objc func doneButtonPressed(_ sender: Any) {
+        AreaCodeTextField.text = countryCodePickerView.selectedCountryCode
+        AreaCodeTextField.resignFirstResponder()
     }
     
     /// 切换语言
@@ -42,10 +66,12 @@ class ZMLoginViewController: UIViewController {
         print("切换语言")
     }
     
-    /// 选择区号
-    @IBAction func selectAreaCode(_ sender: UIButton) {
-        print("选择区号")
-    }
+//    /// 选择区号
+//    @IBAction func selectAreaCode(_ sender: UIButton) {
+//        print("选择区号")
+//        phoneTextField.inputView = countryCodePickerView
+//        phoneTextField.inputAccessoryView = countryCodePickerViewToolbar
+//    }
     
     /// 获取验证码
     @IBAction func getVerificationCode(_ sender: UIButton) {

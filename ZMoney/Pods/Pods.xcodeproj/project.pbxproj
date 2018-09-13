@@ -7,33 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D17041480CF8EA4E07E283490BBEADC /* Pods-ZMoney-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E439631BDEC21A7716D9C3AEC4AA2FC6 /* Pods-ZMoney-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91724B10E829D794124DF9489ED712A3 /* Pods-ZMoney-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D96EE00C7D24884D646EA491F49C15 /* Pods-ZMoney-dummy.m */; };
-		C3EECE12E9B2311C780291978DFE2A53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		245CEBB478014199CF559862655E7457 /* CountryCodePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEFA2FC41C00C57E1D3B7B6C2E82B03 /* CountryCodePicker.swift */; };
+		45638D50131DB9A2AFF06625AC0406DF /* Pods-ZMoney-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D96EE00C7D24884D646EA491F49C15 /* Pods-ZMoney-dummy.m */; };
+		4D76DC1C72BF2D7CA39090894F2A97EE /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD6076E05EAFCA1C1909D2913022EC /* CountryCode.swift */; };
+		741FA0288C1BC03B0D801E4F92379A20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8EB7275E0F1AC099DF32388AD8A84C3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		931239762770E6AF9002E10D6B6F48F9 /* CountryCodeSelect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 179968526FBE636015EAA38B1F857B37 /* CountryCodeSelect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BEEA54DF33099FFFBFBDF26090D0ED /* Pods-ZMoney-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E439631BDEC21A7716D9C3AEC4AA2FC6 /* Pods-ZMoney-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFDB2803C7E2BDA77A872E2E8B6EAADD /* CountryCodeSelect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FBE938D9ACB6F5A25535BF99629D29 /* CountryCodeSelect-dummy.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E288C62E0694910A356C6419293925B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3EFCFAEF537B7D53BCC04EABA33EB8B;
+			remoteInfo = CountryCodeSelect;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03E3689FBF77D87286120A0890D0B464 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13EE2D98D1958DAD9F151ABE9CA62B55 /* Pods_ZMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZMoney.framework; path = "Pods-ZMoney.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E2ECF32F4B7807A6BD2A265F942E0D /* CountryCodeSelect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryCodeSelect.xcconfig; sourceTree = "<group>"; };
+		179968526FBE636015EAA38B1F857B37 /* CountryCodeSelect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryCodeSelect-umbrella.h"; sourceTree = "<group>"; };
+		1FCD6076E05EAFCA1C1909D2913022EC /* CountryCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryCode.swift; path = CountryCodeSelect/Classes/CountryCode.swift; sourceTree = "<group>"; };
+		2AEFA2FC41C00C57E1D3B7B6C2E82B03 /* CountryCodePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryCodePicker.swift; path = CountryCodeSelect/Classes/CountryCodePicker.swift; sourceTree = "<group>"; };
 		302BEC914D9AEC212BE30AAB07DCD343 /* Pods-ZMoney-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMoney-acknowledgements.plist"; sourceTree = "<group>"; };
 		41D96EE00C7D24884D646EA491F49C15 /* Pods-ZMoney-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMoney-dummy.m"; sourceTree = "<group>"; };
+		439CB3688C173FD8E4873DC7854C57C0 /* Pods_ZMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZMoney.framework; path = "Pods-ZMoney.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CCA7EC3511872191E2896B84A41E4B /* Pods-ZMoney-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMoney-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55486D9CB5CD34495CD6A98A851411F5 /* CountryCodeSelect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CountryCodeSelect.modulemap; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5AF877071AF5C2906A4ACBA14D4F0C6F /* CountryCodeSelect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryCodeSelect-prefix.pch"; sourceTree = "<group>"; };
+		696CEFA60A6C62FE8CB574930D4091C8 /* CountryCodeSelect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CountryCodeSelect.framework; path = CountryCodeSelect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B769A671B37BE314CE9E64901E30B9E /* Pods-ZMoney-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMoney-resources.sh"; sourceTree = "<group>"; };
 		8E6A4581BB6CF1D5B8FF17DC4A47A859 /* Pods-ZMoney.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMoney.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BD053767B83E32191F2AE474DCD7FF4 /* Pods-ZMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMoney.release.xcconfig"; sourceTree = "<group>"; };
 		A243089CC786CD0D69025B557493286A /* Pods-ZMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMoney.debug.xcconfig"; sourceTree = "<group>"; };
+		A4FBE938D9ACB6F5A25535BF99629D29 /* CountryCodeSelect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountryCodeSelect-dummy.m"; sourceTree = "<group>"; };
+		D91E945D3134ADE04043E0EA6C44E465 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E439631BDEC21A7716D9C3AEC4AA2FC6 /* Pods-ZMoney-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMoney-umbrella.h"; sourceTree = "<group>"; };
 		E79EE8ED0BEE5329D49CDFD1E63D5779 /* Pods-ZMoney-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMoney-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6464EC7AA29865C35BDC6FA24F50CE7C /* Frameworks */ = {
+		3DE66DC817364B8AED02A2E33B31D982 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3EECE12E9B2311C780291978DFE2A53 /* Foundation.framework in Frameworks */,
+				741FA0288C1BC03B0D801E4F92379A20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48526B75F4FB5664E3FFCF89D72E3287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB7275E0F1AC099DF32388AD8A84C3B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +90,15 @@
 			path = "Target Support Files/Pods-ZMoney";
 			sourceTree = "<group>";
 		};
+		1B7F4CB41B07914B82C39399F9C7B1DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696CEFA60A6C62FE8CB574930D4091C8 /* CountryCodeSelect.framework */,
+				439CB3688C173FD8E4873DC7854C57C0 /* Pods_ZMoney.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,17 +112,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				827CB85BD64D574D06C0ECE526C219A1 /* Products */,
+				E7D1CFF945E7C7F753075BA01B650313 /* Pods */,
+				1B7F4CB41B07914B82C39399F9C7B1DD /* Products */,
 				BDEBD615BBD5C8B75342B895E664C895 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		827CB85BD64D574D06C0ECE526C219A1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				13EE2D98D1958DAD9F151ABE9CA62B55 /* Pods_ZMoney.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -100,36 +134,96 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CD4F99869BD38089A5C9ED50210B5711 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55486D9CB5CD34495CD6A98A851411F5 /* CountryCodeSelect.modulemap */,
+				16E2ECF32F4B7807A6BD2A265F942E0D /* CountryCodeSelect.xcconfig */,
+				A4FBE938D9ACB6F5A25535BF99629D29 /* CountryCodeSelect-dummy.m */,
+				5AF877071AF5C2906A4ACBA14D4F0C6F /* CountryCodeSelect-prefix.pch */,
+				179968526FBE636015EAA38B1F857B37 /* CountryCodeSelect-umbrella.h */,
+				D91E945D3134ADE04043E0EA6C44E465 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CountryCodeSelect";
+			sourceTree = "<group>";
+		};
+		E1266C3DAE58161C46C942DFD89B6359 /* CountryCodeSelect */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD6076E05EAFCA1C1909D2913022EC /* CountryCode.swift */,
+				2AEFA2FC41C00C57E1D3B7B6C2E82B03 /* CountryCodePicker.swift */,
+				CD4F99869BD38089A5C9ED50210B5711 /* Support Files */,
+			);
+			name = CountryCodeSelect;
+			path = CountryCodeSelect;
+			sourceTree = "<group>";
+		};
+		E7D1CFF945E7C7F753075BA01B650313 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1266C3DAE58161C46C942DFD89B6359 /* CountryCodeSelect */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B76E12E2A7EEA703026E6B4DEE754647 /* Headers */ = {
+		476A61FA25FCC7D03513661EFD5A66F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D17041480CF8EA4E07E283490BBEADC /* Pods-ZMoney-umbrella.h in Headers */,
+				931239762770E6AF9002E10D6B6F48F9 /* CountryCodeSelect-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577A8314F149FAF4D55DF729BE1EC3F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BEEA54DF33099FFFBFBDF26090D0ED /* Pods-ZMoney-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4D57821F789272AA8415410B66107C93 /* Pods-ZMoney */ = {
+		018B288D1BA6C5709F710C06DF994904 /* Pods-ZMoney */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 123CDC52BB8E28B09B913F38BF505BAB /* Build configuration list for PBXNativeTarget "Pods-ZMoney" */;
+			buildConfigurationList = 52CC4B7EA854160156C8BC5872FEAACB /* Build configuration list for PBXNativeTarget "Pods-ZMoney" */;
 			buildPhases = (
-				B76E12E2A7EEA703026E6B4DEE754647 /* Headers */,
-				8AF15C2957067A380A44DB9DF1D60217 /* Sources */,
-				6464EC7AA29865C35BDC6FA24F50CE7C /* Frameworks */,
-				17B7D4EC7A798C1891E9C7FC0FC22AB2 /* Resources */,
+				577A8314F149FAF4D55DF729BE1EC3F0 /* Headers */,
+				80F8CD797ADBF5F4C73E58ADEC4CA80A /* Sources */,
+				48526B75F4FB5664E3FFCF89D72E3287 /* Frameworks */,
+				FDC1606BB38BC0B5F725A7CDC492FA2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D40BCCCD6A1ACA0AADF0AD18AFACC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZMoney";
+			productName = "Pods-ZMoney";
+			productReference = 439CB3688C173FD8E4873DC7854C57C0 /* Pods_ZMoney.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3EFCFAEF537B7D53BCC04EABA33EB8B /* CountryCodeSelect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF1634D80F864FCDB291AD7789D8526 /* Build configuration list for PBXNativeTarget "CountryCodeSelect" */;
+			buildPhases = (
+				476A61FA25FCC7D03513661EFD5A66F3 /* Headers */,
+				1497CFF942368EB5090E39E9C054FFA6 /* Sources */,
+				3DE66DC817364B8AED02A2E33B31D982 /* Frameworks */,
+				E8177499D0CE98E5339F3896BA2661A6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-ZMoney";
-			productName = "Pods-ZMoney";
-			productReference = 13EE2D98D1958DAD9F151ABE9CA62B55 /* Pods_ZMoney.framework */;
+			name = CountryCodeSelect;
+			productName = CountryCodeSelect;
+			productReference = 696CEFA60A6C62FE8CB574930D4091C8 /* CountryCodeSelect.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -149,17 +243,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 827CB85BD64D574D06C0ECE526C219A1 /* Products */;
+			productRefGroup = 1B7F4CB41B07914B82C39399F9C7B1DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D57821F789272AA8415410B66107C93 /* Pods-ZMoney */,
+				B3EFCFAEF537B7D53BCC04EABA33EB8B /* CountryCodeSelect */,
+				018B288D1BA6C5709F710C06DF994904 /* Pods-ZMoney */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		17B7D4EC7A798C1891E9C7FC0FC22AB2 /* Resources */ = {
+		E8177499D0CE98E5339F3896BA2661A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC1606BB38BC0B5F725A7CDC492FA2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -169,15 +271,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8AF15C2957067A380A44DB9DF1D60217 /* Sources */ = {
+		1497CFF942368EB5090E39E9C054FFA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91724B10E829D794124DF9489ED712A3 /* Pods-ZMoney-dummy.m in Sources */,
+				4D76DC1C72BF2D7CA39090894F2A97EE /* CountryCode.swift in Sources */,
+				245CEBB478014199CF559862655E7457 /* CountryCodePicker.swift in Sources */,
+				FFDB2803C7E2BDA77A872E2E8B6EAADD /* CountryCodeSelect-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F8CD797ADBF5F4C73E58ADEC4CA80A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45638D50131DB9A2AFF06625AC0406DF /* Pods-ZMoney-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D40BCCCD6A1ACA0AADF0AD18AFACC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CountryCodeSelect;
+			target = B3EFCFAEF537B7D53BCC04EABA33EB8B /* CountryCodeSelect */;
+			targetProxy = 1E288C62E0694910A356C6419293925B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		007F1066051A467FBEB0038594E9D7C2 /* Release */ = {
@@ -239,7 +360,7 @@
 			};
 			name = Release;
 		};
-		862112ED7D798EAF936551E0B6E7C5CD /* Debug */ = {
+		060F03099FAD871338B43EF79E870079 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A243089CC786CD0D69025B557493286A /* Pods-ZMoney.debug.xcconfig */;
 			buildSettings = {
@@ -271,13 +392,53 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		88ECCC0BBA7033FD0B844FB1D6F94A7E /* Release */ = {
+		A9317A962CF8A4A38B5A31321025FBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E2ECF32F4B7807A6BD2A265F942E0D /* CountryCodeSelect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountryCodeSelect/CountryCodeSelect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountryCodeSelect/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CountryCodeSelect/CountryCodeSelect.modulemap";
+				PRODUCT_MODULE_NAME = CountryCodeSelect;
+				PRODUCT_NAME = CountryCodeSelect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC2C1F2DD1363FAF043BEADEA4A84561 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9BD053767B83E32191F2AE474DCD7FF4 /* Pods-ZMoney.release.xcconfig */;
 			buildSettings = {
@@ -309,6 +470,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -380,23 +543,68 @@
 			};
 			name = Debug;
 		};
+		FA3B6383FAA93CA5A4C1776BD0E23EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E2ECF32F4B7807A6BD2A265F942E0D /* CountryCodeSelect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountryCodeSelect/CountryCodeSelect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountryCodeSelect/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CountryCodeSelect/CountryCodeSelect.modulemap";
+				PRODUCT_MODULE_NAME = CountryCodeSelect;
+				PRODUCT_NAME = CountryCodeSelect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		123CDC52BB8E28B09B913F38BF505BAB /* Build configuration list for PBXNativeTarget "Pods-ZMoney" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				862112ED7D798EAF936551E0B6E7C5CD /* Debug */,
-				88ECCC0BBA7033FD0B844FB1D6F94A7E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E246FC26AF4A9832D7AA01080188D618 /* Debug */,
 				007F1066051A467FBEB0038594E9D7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CC4B7EA854160156C8BC5872FEAACB /* Build configuration list for PBXNativeTarget "Pods-ZMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060F03099FAD871338B43EF79E870079 /* Debug */,
+				AC2C1F2DD1363FAF043BEADEA4A84561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF1634D80F864FCDB291AD7789D8526 /* Build configuration list for PBXNativeTarget "CountryCodeSelect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3B6383FAA93CA5A4C1776BD0E23EB4 /* Debug */,
+				A9317A962CF8A4A38B5A31321025FBEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

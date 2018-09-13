@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: db2df852d25a2251a4e96e4f21e4baf4da4f1a53
+PODS:
+  - CountryCodeSelect (0.1.0)
+
+DEPENDENCIES:
+  - CountryCodeSelect
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CountryCodeSelect
+
+SPEC CHECKSUMS:
+  CountryCodeSelect: 2dadf19918967efcb3c430b759c50eaf64b0c4e0
+
+PODFILE CHECKSUM: cdb2e0912bec2de5cf62a3c5ae236f86b5d6ea88
 
 COCOAPODS: 1.5.3

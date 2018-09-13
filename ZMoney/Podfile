@@ -6,5 +6,6 @@ target 'ZMoney' do
   use_frameworks!
 
   # Pods for ZMoney
+  pod 'CountryCodeSelect'
 
 end
